@@ -10,6 +10,7 @@ const STORAGE_KEYS: Record<ChainId, string> = {
   '56': 'BSC',
   '100': 'XDAI',
   '137': 'POLYGON',
+  '1807': 'RABBIT',
   '246': 'ENERGY_WEB_CHAIN',
   '42161': 'ARBITRUM',
   '73799': 'VOLTA',

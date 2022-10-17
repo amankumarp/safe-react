@@ -186,6 +186,64 @@
         "SAFE_TX_GAS_OPTIONAL",
         "SPENDING_LIMIT"
       ]
+    },
+    {
+      "transactionService": "https://safe-transaction.rinkeby.staging.gnosisdev.com",
+      "chainId": "1807",
+      "chainName": "Rabbit",
+      "shortName": "rab",
+      "l2": false,
+      "description": "",
+      "rpcUri": {
+        "authentication": "API_KEY_PATH",
+        "value": "https://rabbit.analog-rpc.com"
+      },
+      "safeAppsRpcUri": {
+        "authentication": "API_KEY_PATH",
+        "value": "https://rabbit.analog-rpc.com"
+      },
+      "publicRpcUri": {
+        "authentication": "API_KEY_PATH",
+        "value": "https://rabbit.analog-rpc.com"
+      },
+      "blockExplorerUriTemplate": {
+        "address": "https://rabbit.analogscan.com/address/{{address}}",
+        "txHash": "https://rabbit.analogscan.com/tx/{{txHash}}",
+        "api": "https://rabbit.analogscan.com/api?module={{module}}&action={{action}}&address={{address}}&apiKey={{apiKey}}"
+      },
+      "nativeCurrency": {
+        "name": "Analog",
+        "symbol": "ANA",
+        "decimals": 18,
+        "logoUri": "https://rabbit.analogscan.com/images/analog_icon.svg"
+      },
+      "theme": {
+        "textColor": "#ffffff",
+        "backgroundColor": "#28a745"
+      },
+      "ensRegistryAddress": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
+      "gasPrice": [
+        {
+          "type": "ORACLE",
+          "uri": "https://api-rinkeby.etherscan.io/api?module=gastracker&action=gasoracle&apikey=JNFAU892RF9TJWBU3EV7DJCPIWZY8KEMY1",
+          "gasParameter": "FastGasPrice",
+          "gweiFactor": "1000000000.000000000"
+        }
+      ],
+      "disabledWallets": [
+        "fortmatic",
+        "lattice",
+        "safeMobile"
+      ],
+      "features": [
+        "CONTRACT_INTERACTION",
+        "DOMAIN_LOOKUP",
+        "EIP1559",
+        "ERC721",
+        "SAFE_APPS",
+        "SAFE_TX_GAS_OPTIONAL",
+        "SPENDING_LIMIT"
+      ]
     }
   ]
 }
